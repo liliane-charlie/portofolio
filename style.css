@@ -1,10 +1,10 @@
 :root {
   --branding-color: #6c63ff;
-  --heading-font-family:"Playfair Display", serif;
-  --default-font-family:"Poppins", sans-serif;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 h1 {
-  font-family: var(--heading-font-family)
+  font-family: var(--heading-font-family);
   font-size: 96px;
   font-weight: bold;
   color: black;
@@ -27,7 +27,7 @@ p {
   color: #272142;
 }
 .hero h2 {
-  font-family: var(--default-font-family)
+  font-family: var(--default-font-family);
   font-weight: normal;
   font-size: 24px;
   line-height: 2;
