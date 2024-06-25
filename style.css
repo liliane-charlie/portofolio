@@ -50,7 +50,7 @@ p {
   line-height: 2;
   padding: 15px 30px;
 }
-.about_project_content {
+.content_inner {
   margin: 40px;
 }
 .btn-branding-outline {
@@ -65,16 +65,16 @@ p {
 .project_description {
   padding: 120px 60px;
 }
-.about_section h1 {
+.content h1 {
   font-size: 64px;
   line-height: normal;
   font-family: var(--heading-font-family);
 }
-.about_section h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about_section p {
+.content p {
   font-size: 16px;
   font-family: var(--default-font-family);
   line-height: 30px;
@@ -95,7 +95,7 @@ p {
   .hero h1 {
     font-size: 20px;
   }
-  .about_section {
+  .content {
     text-align: center;
     padding: 0;
   }
