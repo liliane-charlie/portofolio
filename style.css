@@ -2,6 +2,7 @@
   --branding-color: #6c63ff;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
+  --secondary-color: rgb(220, 220, 228);
 }
 h1,
 h2,
@@ -25,7 +26,7 @@ p {
   font-style: normal;
 }
 .hero {
-  background: #f9f7fe;
+  background: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
 }
@@ -129,9 +130,14 @@ footer {
 footer .icone_link a {
   margin: 0 20px;
   color: var(--branding-color);
-  background-color: rgb(220, 220, 228);
+  background-color: var(--secondary-color);
   padding: 10px 14px;
   border-radius: 50px;
+}
+.contact_box {
+  background-color: var(--secondary-color);
+  padding: 30px;
+  border-radius: 10px;
 }
 @media (max-width: 900) {
   .project_description {
