@@ -115,6 +115,24 @@ nav a:hover,
 nav li.active a {
   color: var(--branding-color);
 }
+footer {
+  marging: 60px 0;
+}
+.email_link a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+.email_link a:hover {
+  color: var(--branding-color);
+}
+footer .icone_link a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: rgb(220, 220, 228);
+  padding: 10px 14px;
+  border-radius: 50px;
+}
 @media (max-width: 900) {
   .project_description {
     padding: 0;
