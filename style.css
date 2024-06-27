@@ -28,7 +28,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 40px 10px;
 }
 .hero p {
   font-family: var(--default-font-family);
@@ -138,6 +138,13 @@ footer .icone_link a {
   background-color: var(--secondary-color);
   padding: 30px;
   border-radius: 10px;
+}
+p a {
+  text-decoration: none;
+  color: black;
+}
+p a:hover {
+  color: #6c63ff;
 }
 @media (max-width: 900) {
   .project_description {

@@ -27,14 +27,45 @@
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This page is some of the works realisation of Liliane Charlie End developer"
+    />
     <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/4f5eafdf38.js"
       crossorigin="anonymous"
     ></script>
-    <title>Portofolio project</title>
+    <title>Examples of Liliane works</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <img
+          src="images/logo.png"
+          class="logo d-none d-md-block"
+          alt="SheCodes logo"
+        />
+        <img
+          src="images/small_logo.png"
+          class="logo d-block d-md-none"
+          alt="logo miniature"
+        />
+        <ul>
+          <li>
+            <a href="/index.html" title="Liliane Homepage">home</a>
+          </li>
+
+          <li><a href="/about.html" title="About Liliane">About</a></li>
+          <li class="active">
+            <a href="/" title="Liliane work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="contact liliane"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content container">
       <div class="content_inner">
         <h1 class="mb-4 text-center">
@@ -43,30 +74,67 @@
       </div>
       <div class="row">
         <div class="col-md-6 mb-4">
-          <img src="images/yogurt.png" class="img-fluid" alt="" />
+          <img src="images/yogurt.png" class="img-fluid" alt="omemade yogurt" />
           <h3 class="text-center">Yogurt Project</h3>
           <p class="text-center text-muted">Built with Html and CSS</p>
         </div>
         <div class="col-md-6 mb-4">
-          <img src="images/weather.png" class="img-fluid" alt="" />
+          <img src="images/weather.png" class="img-fluid" alt="Weather App" />
           <h3 class="text-center">Weather Project</h3>
           <p class="text-center text-muted">
             Built with HTML,CSS and javascript
           </p>
         </div>
         <div class="col-md-6 mb-4">
-          <img src="images/dictionary.png" class="img-fluid" alt="" />
+          <img
+            src="images/dictionary.png"
+            class="img-fluid"
+            alt="Dictionary app"
+          />
           <h3 class="text-center">Dictionnary App</h3>
           <p class="text-center text-muted">Built with HTML,CSS and react</p>
         </div>
         <div class="col-md-6 mb-4">
-          <img src="images/images.png" class="img-fluid" alt="" />
+          <img
+            src="images/images.png"
+            class="img-fluid"
+            alt="ranslation application"
+          />
           <h3 class="text-center">Translation Project</h3>
           <p class="text-center text-muted">
             Built with HTML, CSS Javascript and react
           </p>
         </div>
       </div>
+    </div>
+    <div class="container">
+      <footer>
+        <div
+          class="contact_box d-flex justify-content-between mb-5 mt-5 d-none d-md-flex"
+        >
+          <div>
+            <h4>Work Enquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding"> Contact me</a>
+          </div>
+        </div>
+        <div class="email_link text-center mb-5">
+          <a href="mailto:outekliliane@gmail.com"> outekliliane@gmail.com</a>
+        </div>
+        <div class="icone_link d-flex justify-content-center mb-5">
+          <a href="https://www.instagram.com/lilianecharli" target="_blank"
+            ><i class="fa-brands fa-instagram" title="instagram icon"></i
+          ></a>
+          <a href="https://github.com/liliane-charlie" target="_blank"
+            ><i class="fa-brands fa-github" title="Github Contact"></i
+          ></a>
+          <a href="lilianecharlie" target="_blank"
+            ><i class="fa-brands fa-discord" title="discord contact"></i
+          ></a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
